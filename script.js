@@ -27,3 +27,9 @@
 
 // let num = Number(name);
 // console.log(num, typeof num);
+
+//loosely equal to --- strictly equal to
+
+// console.log(5 == "5");
+// console.log(5 === "5");
+// console.log("5" === "5");
