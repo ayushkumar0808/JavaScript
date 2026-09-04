@@ -15,3 +15,15 @@
 // console.log(typeof a);
 // console.log(typeof name);
 // console.log(typeof isTrue);
+
+//type converstion
+
+// let str = "45";
+// let num = Number(str);
+// console.log(num, typeof num);
+
+// let name = prompt("Enter a No.");
+// console.log(name, typeof name);
+
+// let num = Number(name);
+// console.log(num, typeof num);
