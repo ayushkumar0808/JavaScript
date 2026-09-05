@@ -15,3 +15,9 @@
 
 // let a = (b = c = 5);
 // console.log(a, b, c);
+
+//3
+
+let a = parseInt(prompt("Enter a number"));
+
+console.log(a % 2 == 0 ? "even" : "odd");
