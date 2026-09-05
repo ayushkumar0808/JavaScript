@@ -18,6 +18,14 @@
 
 //3
 
-let a = parseInt(prompt("Enter a number"));
+// let a = parseInt(prompt("Enter a number"));
+// console.log(a % 2 == 0 ? "even" : "odd");
 
-console.log(a % 2 == 0 ? "even" : "odd");
+//4
+
+// let a = parseInt(prompt("Enter a number"));
+// console.log("No  is:", a);
+// console.log("No is in between  10 to 20");
+// console.log(a >= 10 && a <= 20 ? "yes" : "no");
+
+//5
