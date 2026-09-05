@@ -29,3 +29,18 @@
 // console.log(a >= 10 && a <= 20 ? "yes" : "no");
 
 //5
+let userName = prompt("enter userName");
+let password = prompt("enter password");
+
+const databaseUser = "ayush";
+const databasePassword = "123";
+
+const result =
+  userName &&
+  password &&
+  userName === databaseUser &&
+  password === databasePassword
+    ? "login successfully"
+    : "invailid userName or Password";
+console.log(result);
+alert(result);
