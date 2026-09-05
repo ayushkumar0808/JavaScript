@@ -6,3 +6,6 @@ console.log(-2 & 5);
 console.log(-5 | 2);
 console.log(-5 & -2);
 console.log(-5 | -2); // 5 2s comliment or 2 2s comliment // ans -1
+console.log(8 >> 1);
+console.log(2 << 2);
+console.log(7 ^ 3);
