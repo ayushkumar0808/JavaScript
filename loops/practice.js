@@ -24,7 +24,7 @@
 
 //4.create a Number Knock Game.
 // let computerguess = 5;
-// let guess;
+// let guess=null;
 // while (guess !== computerguess) {
 //   guess = Number(prompt("Enter Your Guess!"));
 
@@ -32,4 +32,18 @@
 //   else if (guess < computerguess) alert("Your Number is Low! Try Again ");
 //   else if (guess > computerguess) alert("Your Number is High! Try Agian ");
 //   else alert("Your Guess is Correct! You win");
+// }
+
+//5.simple password checker fixed attempt.
+// let passwordDatabase = "ayush";
+// let userPassword = null;
+// let attemps = 0;
+
+// while (passwordDatabase !== userPassword && attemps < 3) {
+//   userPassword = prompt("Enter Your Password");
+//   attemps++;
+//   if (userPassword === passwordDatabase)
+//     alert("Congratulations!! Your password is Matched");
+//   else if (attemps >= 3) alert("You're reached your maximum attempts!");
+//   else alert("Invalid Password!! try again");
 // }
