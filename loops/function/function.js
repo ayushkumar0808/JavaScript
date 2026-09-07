@@ -11,3 +11,9 @@
 
 // let a = withReturn();
 // console.log(a);
+
+// function withArgument(name) {
+//   console.log(name);
+// }
+
+// withArgument("ayush");
