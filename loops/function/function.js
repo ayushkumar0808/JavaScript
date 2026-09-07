@@ -4,3 +4,10 @@
 
 // withNoReturn();
 // withNoReturn();
+
+// function withReturn() {
+//   return "ayush";
+// }
+
+// let a = withReturn();
+// console.log(a);
