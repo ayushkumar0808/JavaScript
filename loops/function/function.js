@@ -17,3 +17,9 @@
 // }
 
 // withArgument("ayush");
+
+function withArgumentWithReturn(name) {
+  return name + " hi";
+}
+let str = withArgumentWithReturn("Ayush");
+console.log(str);
