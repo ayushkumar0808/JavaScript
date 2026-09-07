@@ -15,3 +15,11 @@
 //   sum += i;
 // }
 // console.log(sum);
+
+//3.print all odd no 0n to n.
+// let n = 100;
+// for (let i = 0; i <= n; i++) {
+//   if (i % 2 !== 0) console.log(i);
+// }
+
+//4.
