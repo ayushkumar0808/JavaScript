@@ -11,7 +11,7 @@ console.log(str.indexOf("b"));
 console.log(str.charAt(0));
 console.log(str.replace("boy", "girl"));
 console.log(str.replaceAll("boy", "girl"));
-console.log(str.slice(4, 9));
+console.log(str.slice(4, 10));
 
 // let str = "ayUsh";
 // console.log(`${str.charAt(0).toUpperCase()}${str.slice(1).toLowerCase()}`);
