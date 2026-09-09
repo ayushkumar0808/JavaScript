@@ -50,6 +50,6 @@
 // let arr = [5, 6, 3, 8, [77, 44, 7, [5], 7]];
 // console.log(arr.flat(2));
 
-let arr = [20, 3, 77, 2, 6, 8];
-let arrNew = arr.sort((a, b) => b - a);
-console.log(arrNew);
+// let arr = [20, 3, 77, 2, 6, 8];
+// let arrNew = arr.sort((a, b) => b - a);
+// console.log(arrNew);
