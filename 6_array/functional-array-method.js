@@ -14,3 +14,8 @@ let arr = [4, 6, 8, 95, 0, 4, 6];
 //   sum += elem;
 // });
 // console.log(sum);
+
+// let arrNew = arr.filter((elem) => {
+//   return elem % 2 === 0;
+// });
+// console.log(arrNew);
