@@ -1,7 +1,4 @@
-//create a program to take full name from user and generate a username start with @
 
-// let str = prompt("Enter your full name");
-// str = "@" + str.replaceAll(" ", "") + "_" + str.length;
 
 // alert(str);
 
@@ -29,10 +26,3 @@
 // let str = prompt("Enter the string");
 // let ch = prompt("Enter the charachter");
 // for (let i in str) {
-//   if (str[i] === ch) console.log(i);
-// }
-
-//word count
-
-let str = "He is a boy";
-console.log(str.split(" ").length);
