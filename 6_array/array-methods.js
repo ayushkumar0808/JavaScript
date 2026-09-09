@@ -37,4 +37,7 @@ let arr = [4, 8, 5, 9, 5];
 
 // console.log(arr.indexOf(5));
 
-console.log(arr.includes(5));
+// console.log(arr.includes(5));
+
+arr.reverse();
+console.log(arr);
