@@ -17,11 +17,17 @@
 
 //case insensitive
 
+// let str = prompt("Enter the string");
+// let ch = prompt("Enter the charachter");
+// let count = 0;
+// for (let val of str) {
+//   if (val.toLowerCase() === ch.toLowerCase()) count++;
+// }
+// alert(count);
+// console.log(count);
+
 let str = prompt("Enter the string");
 let ch = prompt("Enter the charachter");
-let count = 0;
-for (let val of str) {
-  if (val.toLowerCase() === ch.toLowerCase()) count++;
+for (let i in str) {
+  if (str[i] === ch) console.log(i);
 }
-alert(count);
-console.log(count);
