@@ -17,5 +17,14 @@ let arr = [4, 8, 5, 9, 5];
 // let a = arr.splice(2, 2);
 // console.log(arr, a);
 
-// let a = arr.splice(2, 2, 6, 7);
+//  let a = arr.splice(2, 2, 6, 7);
 // console.log(arr, a);
+
+// let arr2 = ["ayush", "hehee"];
+// let newArr = arr.concat(arr2);
+// console.log(newArr);
+
+// //spread operator
+
+// let arrNew = [...arr, ...arr2];
+// console.log(arrNew);
