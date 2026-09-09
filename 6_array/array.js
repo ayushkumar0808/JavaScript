@@ -1,3 +1,5 @@
+//literals method
+
 // let arr = [33, 45, 67, 87];
 // let arr2 = ["Ayush", "bob", "john"];
 // let arr3 = ["Ayush", 24, "blr"];
