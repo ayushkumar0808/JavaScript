@@ -1,0 +1,9 @@
+//create a program to take full name from user and generate a username start with @
+
+// let str = prompt("Enter your full name");
+// str = "@" + str.replaceAll(" ", "") + "_" + str.length;
+
+// alert(str);
+
+//take a string and a character
+// check how many times character appears
