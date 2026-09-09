@@ -35,4 +35,6 @@ let arr = [4, 8, 5, 9, 5];
 // let newArr = arr.toString();
 // console.log(newArr, typeof newArr);
 
-console.log(arr.indexOf(5));
+// console.log(arr.indexOf(5));
+
+console.log(arr.includes(5));
