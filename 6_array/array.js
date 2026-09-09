@@ -13,3 +13,5 @@
 // let arr3 = new Array(20).fill(1);
 // console.log(arr2);
 // console.log(arr3);
+
+//array is mutable
