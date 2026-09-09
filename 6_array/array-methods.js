@@ -28,3 +28,6 @@ let arr = [4, 8, 5, 9, 5];
 
 // let arrNew = [...arr, ...arr2];
 // console.log(arrNew);
+
+// let newArr = arr.join(" ");
+// console.log(newArr, typeof newArr);
