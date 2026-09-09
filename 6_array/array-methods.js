@@ -31,3 +31,6 @@ let arr = [4, 8, 5, 9, 5];
 
 // let newArr = arr.join(" ");
 // console.log(newArr, typeof newArr);
+
+// let newArr = arr.toString();
+// console.log(newArr, typeof newArr);
