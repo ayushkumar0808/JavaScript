@@ -1,4 +1,4 @@
-let arr = [4, 8, 5, 9, 5];
+// let arr = [4, 8, 5, 9, 5];
 // let a = arr.push(0);
 // console.log(arr, a);
 
@@ -39,5 +39,10 @@ let arr = [4, 8, 5, 9, 5];
 
 // console.log(arr.includes(5));
 
-arr.reverse();
-console.log(arr);
+// arr.reverse();
+// console.log(arr);
+
+// let newArr = arr.find((value) => {
+//   return value === 5;
+// });
+// console.log(newArr);
