@@ -7,3 +7,10 @@
 
 //take a string and a character
 // check how many times character appears
+
+// let str = "ayushayaca";
+// let count = 0;
+// for (ch of str) {
+//   if (ch === "a") count++;
+// }
+// console.log(count);
