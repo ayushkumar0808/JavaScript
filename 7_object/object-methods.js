@@ -17,9 +17,23 @@ let obj = {
 //   console.log(obj[ch]);
 // }
 
-let obj2 = {};
-Object.assign(obj2, obj);
-console.log(obj2);
-//spread operator
-let obj3 = { ...obj };
-console.log(obj3);
+// let obj2 = {};
+// Object.assign(obj2, obj);
+// console.log(obj2);
+// //spread operator
+// let obj3 = { ...obj };
+// console.log(obj3);
+
+// Object.freeze(obj);
+
+// obj.name = "Ayush Kumar"; //❌
+// obj.city = "blr"; //❌
+// delete obj.age; //❌
+// console.log(obj);
+
+// Object.seal(obj);
+
+// obj.name = "Ayush Kumar"; //✔️
+// obj.city = "blr"; //❌
+// delete obj.age; //❌
+// console.log(obj);
