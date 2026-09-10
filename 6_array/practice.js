@@ -22,7 +22,7 @@
 // let arr = new Array(n).fill(0);
 // console.log(arr);
 
-//
+//create an array with given length and store the natural no 1 to n
 
 // let n = 20;
 // let arr = new Array(n).fill(0);
@@ -30,3 +30,19 @@
 //   return index + 1;
 // });
 // console.log(arr1);
+
+//question 4
+
+// let arr = ["Ayush", "Abhishek", "Arkadeep", "Bimba", "Abhipsa"];
+// arr.push("Spiderman");
+// console.log(arr);
+
+// arr.unshift("thor");
+// console.log(arr);
+
+// arr.splice(3, 1, "Kumar");
+// console.log(arr);
+
+// console.log(arr.includes("Ayush"));
+
+//
