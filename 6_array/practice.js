@@ -36,7 +36,6 @@
 // let arr = ["Ayush", "Abhishek", "Arkadeep", "Bimba", "Abhipsa"];
 // arr.push("Spiderman");
 // console.log(arr);
-
 // arr.unshift("thor");
 // console.log(arr);
 
@@ -45,4 +44,11 @@
 
 // console.log(arr.includes("Ayush"));
 
-//
+//how to check given thing is array or not ? convert the other any strin to array ? what if we try to convert an  object to array
+
+// let a = "Ayush";
+// let a = {
+//   name: "Ayush",
+// };
+// console.log(Array.isArray(a));
+// console.log(Array.from(a));
