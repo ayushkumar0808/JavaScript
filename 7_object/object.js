@@ -52,3 +52,14 @@
 // console.log(obj);
 // delete obj.city;
 // console.log(obj);
+
+//this keyword
+
+let obj = {
+  name: "Ayush",
+  age: 24,
+  show: function () {
+    console.log(`Hi i m ${this.name} and my age is ${this.age}`);
+  },
+};
+obj.show();
