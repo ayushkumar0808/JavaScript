@@ -53,7 +53,7 @@
 // console.log(Array.isArray(a));
 // console.log(Array.from(a));
 
-//
+//question 6
 
 // let a = 2;
 // let b = "rffer";
@@ -61,4 +61,13 @@
 // let d = [4, 6, 7, 54, 4];
 // console.log(Array.of(a, b, c, d));
 
-//
+//check the given string is  palindrome or not
+
+// let str = "ollo";
+// let test = Array.from(str).reverse().join("");
+// console.log(test);
+// if (str === test) {
+//   console.log("it's a palindrome");
+// } else {
+//   console.log("Not a palindrome");
+// }
