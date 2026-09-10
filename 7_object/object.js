@@ -26,3 +26,5 @@
 // car["start"]();
 
 //object  consterctor
+// let obj = new Object({ name: "Ayush" });
+// console.log(obj);
