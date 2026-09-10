@@ -23,4 +23,4 @@ let arr = [4, 6, 8, 95, 0, 4, 6];
 // let val = arr.reduce((acc, curr) => {
 //   return acc + curr;
 // }, 10);
-// console.log(val);
+// console.log(val);//value
