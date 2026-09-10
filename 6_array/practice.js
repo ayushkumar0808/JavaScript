@@ -21,3 +21,12 @@
 // let n = 10;
 // let arr = new Array(n).fill(0);
 // console.log(arr);
+
+//
+
+// let n = 20;
+// let arr = new Array(n).fill(0);
+// let arr1 = arr.map((elem, index) => {
+//   return index + 1;
+// });
+// console.log(arr1);
