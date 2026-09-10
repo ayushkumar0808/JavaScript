@@ -18,6 +18,7 @@
 //     console.log("start the car...");
 //   },
 // };
+// console.log(car);
 
 // car.stop();
 // console.log(car.brand);
@@ -34,3 +35,20 @@
 //   "*": "ayush",
 // };
 // console.log(obj["*"]);
+
+//add update delete
+
+// let obj = {
+//   name: "Ayush",
+// };
+// console.log(obj);
+// obj.age = 24;
+// obj.city = "blr";
+// obj.name = "Ayush Kumar";
+// obj.greet = () => {
+//   console.log("hi");
+// };
+// obj.greet();
+// console.log(obj);
+// delete obj.city;
+// console.log(obj);
