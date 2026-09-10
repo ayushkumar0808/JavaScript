@@ -18,5 +18,6 @@
 
 //create an array with given lenght(n) and fill with 0.
 
-// let arr = new Array(20).fill(0);
+// let n = 10;
+// let arr = new Array(n).fill(0);
 // console.log(arr);
