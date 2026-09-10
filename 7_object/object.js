@@ -26,5 +26,6 @@
 // car["start"]();
 
 //object  consterctor
-// let obj = new Object({ name: "Ayush" });
-// console.log(obj);
+let obj = new Object({ name: "Ayush" });
+obj.age = 24;
+console.log(obj);
