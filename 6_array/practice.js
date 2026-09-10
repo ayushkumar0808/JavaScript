@@ -9,4 +9,14 @@
 // avg = sum / marks.length;
 // console.log(avg);
 
-//
+// let avg;
+// let sum = marks.reduce((acc, curr) => {
+//   return acc + curr;
+// });
+// avg = sum / marks.length;
+// console.log(avg);
+
+//create an array with given lenght(n) and fill with 0.
+
+// let arr = new Array(20).fill(0);
+// console.log(arr);
