@@ -52,3 +52,13 @@
 // };
 // console.log(Array.isArray(a));
 // console.log(Array.from(a));
+
+//
+
+// let a = 2;
+// let b = "rffer";
+// let c = { name: "ayush" };
+// let d = [4, 6, 7, 54, 4];
+// console.log(Array.of(a, b, c, d));
+
+//
