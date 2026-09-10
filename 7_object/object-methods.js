@@ -37,3 +37,5 @@ let obj = {
 // obj.city = "blr"; //❌
 // delete obj.age; //❌
 // console.log(obj);
+
+console.log(obj.hasOwnProperty("name"));
