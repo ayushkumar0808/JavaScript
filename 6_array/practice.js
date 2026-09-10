@@ -71,3 +71,12 @@
 // } else {
 //   console.log("Not a palindrome");
 // }
+
+//capitalized first  letter of every word in a sentance
+
+// let str = "he is a boy and she is a girl";
+// str = str.split(" ");
+// str.forEach((elm, i) => {
+//   str[i] = elm.charAt(0).toUpperCase() + elm.slice(1).toLowerCase();
+// });
+// console.log(str.join(" "));
