@@ -80,3 +80,45 @@
 //   str[i] = elm.charAt(0).toUpperCase() + elm.slice(1).toLowerCase();
 // });
 // console.log(str.join(" "));
+
+//give repeat element
+
+// let arr = [3, 4, 2, 6, 7, 9, 8, 3, 8];
+
+// let resultArr = (arr) => {
+//   arr.sort((a, b) => a - b);
+//   console.log(arr);
+//   let res = arr.filter((item, index) => item === arr[index + 1]);
+//   return res;
+// };
+
+// console.log(resultArr(arr));
+
+//count accrence
+
+// let str = "My name is badshah sh ayush";
+// let count = 0;
+// for (let i in str) {
+//   console.log(str[i], str[Number(i) + 1]);
+//   if (str[i] === "s" && str[Number(i) + 1] === "h") count++;
+// }
+// console.log(count);
+
+// console.log(str.includes("shb"));
+// console.log(str.indexOf("sh"));
+
+// let str = "Ayush";
+// let str2 = "Kumar";
+
+// let str3 = str && str2;
+// console.log(str3);
+
+//  [a] = [100, 200, 300];  //array destructing
+// console.log(a);
+
+// let a = 100;
+// const b = ++a + a++;
+// console.log(b);
+
+// let arr = ["A", "F", "T", "B"].sort();
+// console.log(arr);
