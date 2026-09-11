@@ -113,3 +113,14 @@
 // console.log(groupComments(comments));
 
 //write a function buildQuery(params) that returns
+const params = {
+  search: "laptop",
+  page: 2,
+  sort: "prcie",
+};
+
+let url = "";
+for (let key in params) {
+  url = url + `${key}=${params[key]}&`;
+}
+console.log(url.slice(0, url.length - 1));
