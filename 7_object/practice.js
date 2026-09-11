@@ -67,3 +67,21 @@
 // };
 
 // console.log(resultArr(user, "admin"));
+
+//write a function searchProduct that returns an array of products whose name givn in keywords
+
+// let products = [
+//   { id: 1, name: "samsung glexy" },
+//   { id: 2, name: "poco" },
+//   { id: 3, name: "mi" },
+// ];
+
+// const searchProduct = (products, searchItem) => {
+//   let fillterArr = products.filter((item) => {
+//     return item.name.toLowerCase().includes(searchItem.toLowerCase());
+//   });
+//   return fillterArr;
+// };
+
+// const filterArr = searchProduct(products, "Samsung");
+// console.log(filterArr);
