@@ -17,15 +17,53 @@
 
 //create function takes an object with firstname middile name and lastname and return fullname
 
-let obj = {
-  firstName: "Ayush",
-  middleName: "na",
-  lastName: "Kumar",
-};
+// let obj = {
+//   firstName: "Ayush",
+//   middleName: "na",
+//   lastName: "Kumar",
+// };
 
-const createFullname = (obj) => {
-  return `${obj.firstName} ${obj.middleName} ${obj.lastName}`;
-};
+// const createFullname = (obj) => {
+//   return `${obj.firstName} ${obj.middleName} ${obj.lastName}`;
+// };
 
-let fullName = createFullname(obj);
-console.log(fullName);
+// let fullName = createFullname(obj);
+// console.log(fullName);
+
+//write a function that takes a object  and return the number of properties in an object
+
+// let obj = {
+//   name: "Ayush",
+//   age: 25,
+//   city: "blr",
+// };
+
+// let entries = Object.entries(obj);
+
+// const createLengthOfObj = (arr) => {
+//   return arr.length;
+// };
+
+// let length = createLengthOfObj(entries);
+// console.log(length);
+
+//write a function that returns an array of names of users who have the role admin.
+
+// const user = [
+//   { name: "abc", role: "admin" },
+//   { name: "bcd", role: "user" },
+//   { name: "efg", role: "admin" },
+// ];
+
+// let resultArr = (user, role) => {
+//   let arr = user.filter((item) => {
+//     return item.role === role;
+//   });
+
+//   let resultArr = arr.map((item) => {
+//     return item.name;
+//   });
+//   return resultArr;
+// };
+
+// console.log(resultArr(user, "admin"));
