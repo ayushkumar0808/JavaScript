@@ -119,8 +119,12 @@ const params = {
   sort: "prcie",
 };
 
-let url = "";
-for (let key in params) {
-  url = url + `${key}=${params[key]}&`;
+function buildQuery(params) {
+  let url = "";
+  for (let key in params) {
+    url = url + `${key}=${params[key]}&`;
+  }
+  console.log(url.slice(0, url.length - 1));
 }
-console.log(url.slice(0, url.length - 1));
+
+buildQuery(params);
