@@ -100,13 +100,16 @@
 // function groupComments(comments) {
 //   const obj = {};
 //   comments.forEach((item) => {
-//     if (obj.hasOwnProperty(item.id)) {
-//       obj[item.id].push(item.text);
+//     let { id, text } = item;
+//     if (obj.hasOwnProperty(id)) {
+//       obj[id].push(text);
 //     } else {
-//       obj[item.id] = [item.text];
+//       obj[id] = [text];
 //     }
 //   });
 //   return obj;
 // }
 
 // console.log(groupComments(comments));
+
+//write a function buildQuery(params) that returns
