@@ -122,3 +122,6 @@
 
 // let arr = ["A", "F", "T", "B"].sort();
 // console.log(arr);
+
+arr = [, , ,];
+console.log(arr, arr.length);
