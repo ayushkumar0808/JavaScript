@@ -85,3 +85,28 @@
 
 // const filterArr = searchProduct(products, "Samsung");
 // console.log(filterArr);
+
+//write a function groupby(text) that return an grpuping comments by id
+
+// const comments = [
+//   { id: 1, text: "Great post" },
+//   { id: 2, text: "Thanks" },
+//   { id: 1, text: "Very helpful" },
+//   { id: 2, text: "Very helpful" },
+//   { id: 3, text: "Very helpful" },
+//   { id: 1, text: "Very helpful" },
+// ];
+
+// function groupComments(comments) {
+//   const obj = {};
+//   comments.forEach((item) => {
+//     if (obj.hasOwnProperty(item.id)) {
+//       obj[item.id].push(item.text);
+//     } else {
+//       obj[item.id] = [item.text];
+//     }
+//   });
+//   return obj;
+// }
+
+// console.log(groupComments(comments));
