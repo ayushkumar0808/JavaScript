@@ -20,4 +20,20 @@ let a = document.querySelector("div");
 // a.innerHTML = "<p>baki kya hal</p> ";
 // console.log(a.innerHTML);
 
-console.log(a);
+// console.log(a);
+
+let elem = document.createElement("p");
+elem.innerText = "New para";
+a.append(elem);
+// a.prepend(elem);
+// a.before(elem);
+// a.after(elem);
+// a.insertAdjacentElement("afterbegin", elem);
+// a.insertAdjacentElement("afterend", elem);
+// a.insertAdjacentElement("beforebegin", elem);
+// a.insertAdjacentElement("beforeend", elem);
+
+// a.remove();
+
+let p = a.children[2];
+p.remove();
