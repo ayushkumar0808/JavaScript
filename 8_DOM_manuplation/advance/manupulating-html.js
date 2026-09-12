@@ -2,7 +2,7 @@
 //.tagName
 //.nodeName
 
-let a = document.querySelector("h1");
+let a = document.querySelector("div");
 // console.log(a.tagName);
 // console.log(a.nodeName);
 // console.log(a.firstChild.nodeName);
@@ -19,3 +19,5 @@ let a = document.querySelector("h1");
 //element/html get and set
 // a.innerHTML = "<p>baki kya hal</p> ";
 // console.log(a.innerHTML);
+
+console.log(a);
