@@ -8,3 +8,7 @@
 // console.log(c);
 // let d = document.getElementsByClassName("hi");
 // console.log(d);
+
+// let a = document.querySelector(".container");
+// console.log(a.childNodes); //NodeList
+// console.log(a.children); //html elements
