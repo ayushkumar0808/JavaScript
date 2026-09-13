@@ -8,3 +8,4 @@ let div = document.querySelector("div");
 
 //external style
 div.className = "redBg";
+div.className = "blueBg";
