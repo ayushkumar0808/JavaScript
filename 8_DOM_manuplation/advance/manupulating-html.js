@@ -44,6 +44,7 @@ elem.innerText = "New para";
 // a.replaceChild(elem, a.children[1]);
 // a.insertBefore(elem, a.children[2]);
 // a.remove();
+// a.removeChild(a.children[1]);
 
 // let p = a.children[2];
 // p.remove();
