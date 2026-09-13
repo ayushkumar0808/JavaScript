@@ -33,6 +33,8 @@ elem.innerText = "New para";
 
 //#operations:
 
+//#node properties:
+
 // a.append(elem);
 // a.prepend(elem);
 // a.before(elem);
@@ -41,19 +43,19 @@ elem.innerText = "New para";
 // a.insertAdjacentElement("afterend", elem);
 // a.insertAdjacentElement("beforebegin", elem);
 // a.insertAdjacentElement("beforeend", elem);
-// a.replaceChild(elem, a.children[1]);
-// a.insertBefore(elem, a.children[2]);
 // a.remove();
-// a.removeChild(a.children[1]);
-
 // let p = a.children[2];
 // p.remove();
+
+//#parent properties:
+
+// a.replaceChild(elem, a.children[1]);
+// a.insertBefore(elem, a.children[2]);
+// a.removeChild(a.children[1]);
 
 //acesses child to parent node
 
 // let p = document.querySelector("#a");
 // p.style.backgroundColor = "red";
 // let parentNode = p.parentNode;
-
 // console.log(parentNode);
-// parentNode.append(elem);
