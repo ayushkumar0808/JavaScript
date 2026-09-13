@@ -13,7 +13,11 @@ let div = document.querySelector("div");
 // div.setAttribute("class", "redBg");
 // div.setAttribute("class", "blueBg"); //remove fisrt
 
-//classList
+// //classList
 
-div.classList.add("redBg");
-div.classList.add("blueBg");
+// div.classList.add("redBg");
+// div.classList.add("blueBg");
+// div.classList.remove("blueBg");
+// console.log(div.classList.contains("redBg"));
+// div.classList.toggle("blueBg");
+// div.classList.toggle("blueBg");
