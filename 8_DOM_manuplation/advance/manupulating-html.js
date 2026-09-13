@@ -1,4 +1,4 @@
-let a = document.querySelector("div");
+// let a = document.querySelector("div");
 
 //1.get tag name (read only)
 
@@ -28,8 +28,8 @@ let a = document.querySelector("div");
 
 //#create  element:
 
-let elem = document.createElement("p");
-elem.innerText = "New para";
+// let elem = document.createElement("p");
+// elem.innerText = "New para";
 
 //#operations:
 
@@ -59,3 +59,17 @@ elem.innerText = "New para";
 // p.style.backgroundColor = "red";
 // let parentNode = p.parentNode;
 // console.log(parentNode);
+
+//4. Attributes
+
+let div = document.querySelector(".box");
+// div.innerHTML = "hello";
+
+// console.log(div.getAttribute("class"));
+// console.log(div.attributes.class.value);
+
+let classVal = div.getAttribute("class");
+div.setAttribute("class", `${classVal} hi`);
+
+// console.log(div.getAttribute("class"));
+console.log(div.attributes.class.value);
