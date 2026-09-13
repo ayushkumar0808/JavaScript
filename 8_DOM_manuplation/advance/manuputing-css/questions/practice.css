@@ -1,0 +1,13 @@
+.light {
+  background-color: white;
+  color: black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
