@@ -44,6 +44,7 @@
 // a.insertAdjacentElement("beforebegin", elem);
 // a.insertAdjacentElement("beforeend", elem);
 // a.remove();
+//a.replaceWith(elem);//denger
 // let p = a.children[2];
 // p.remove();
 
