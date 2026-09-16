@@ -35,6 +35,7 @@ let container = document.querySelector(".container");
 //Event Most used
 
 // 1.Mouse Event
+
 // btn.addEventListener("mousedown", () => {
 //   console.log("mousedown");
 // });
@@ -61,4 +62,16 @@ let container = document.querySelector(".container");
 // });
 // btn.addEventListener("auxclick", () => {
 //   console.log("auxclick");
+// });
+
+//2.Key event
+
+// btn.addEventListener("keydown", () => {
+//   console.log("keydown");
+// });
+// btn.addEventListener("keypress", () => {
+//   console.log("keypress");
+// });
+// btn.addEventListener("keyup", () => {
+//   console.log("keyup");
 // });
