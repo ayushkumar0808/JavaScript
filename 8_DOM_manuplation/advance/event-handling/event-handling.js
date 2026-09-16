@@ -1,5 +1,5 @@
 let btn = document.querySelector(".btn");
-
+let container = document.querySelector(".container");
 //property method
 // btn.onclick = () => {
 //   console.log("single click");
@@ -30,4 +30,35 @@ let btn = document.querySelector(".btn");
 // event Object
 // btn.addEventListener("click", function (event) {
 //   console.log(event);
+// });
+
+//Event Most used
+
+// 1.Mouse Event
+// btn.addEventListener("mousedown", () => {
+//   console.log("mousedown");
+// });
+// btn.addEventListener("mouseup", () => {
+//   console.log("mousedup");
+// });
+// container.addEventListener("mouseenter", () => {
+//   console.log("mouseenter");
+// });
+// container.addEventListener("mouseleave", () => {
+//   console.log("mouseleave");
+// });
+// btn.addEventListener("mouseover", () => {
+//   console.log("mouseover");
+// });
+// btn.addEventListener("mouseout", () => {
+//   console.log("mouseout");
+// });
+// container.addEventListener("mousemove", () => {
+//   console.log("mousemove");
+// });
+// container.addEventListener("contextmenu", () => {
+//   console.log("contextmenu");
+// });
+// btn.addEventListener("auxclick", () => {
+//   console.log("auxclick");
 // });
