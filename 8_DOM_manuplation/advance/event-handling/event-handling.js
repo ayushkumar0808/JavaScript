@@ -77,3 +77,27 @@ let container = document.querySelector(".container");
 // });
 
 //3.form event
+
+let form = document.querySelector(".form");
+let submitBtn = document.querySelector("#submit");
+// form.addEventListener("submit", () => {
+//   console.log("submit hogya");
+// });
+// submitBtn.addEventListener("submit", () => {
+//   console.log("submit hogya");
+// });❌
+// form.addEventListener("reset", () => {
+//   console.log("reset hogya");
+// });
+form.addEventListener("focus", () => {
+  console.log("focus hogya");
+});
+// form.addEventListener("submit", () => {
+//   console.log("submit hogya");
+// });
+// form.addEventListener("submit", () => {
+//   console.log("submit hogya");
+// });
+// form.addEventListener("submit", () => {
+//   console.log("submit hogya");
+// });
