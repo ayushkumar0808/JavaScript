@@ -78,8 +78,9 @@ let container = document.querySelector(".container");
 
 //3.form event
 
-let form = document.querySelector(".form");
-let submitBtn = document.querySelector("#submit");
+// let form = document.querySelector(".form");
+// let submitBtn = document.querySelector("#submit");
+// let input = document.querySelector(".text");
 // form.addEventListener("submit", () => {
 //   console.log("submit hogya");
 // });
@@ -89,15 +90,15 @@ let submitBtn = document.querySelector("#submit");
 // form.addEventListener("reset", () => {
 //   console.log("reset hogya");
 // });
-form.addEventListener("focus", () => {
-  console.log("focus hogya");
-});
-// form.addEventListener("submit", () => {
-//   console.log("submit hogya");
+// input.addEventListener("focus", () => {
+//   console.log("focus hogya");
 // });
-// form.addEventListener("submit", () => {
-//   console.log("submit hogya");
+// input.addEventListener("blur", () => {
+//   console.log("blur hogya");
 // });
-// form.addEventListener("submit", () => {
-//   console.log("submit hogya");
+// input.addEventListener("input", () => {
+//   console.log(input.value);
+// });
+// input.addEventListener("change", () => {
+//   console.log(input.value);
 // });
