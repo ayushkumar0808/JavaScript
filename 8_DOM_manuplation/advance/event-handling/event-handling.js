@@ -75,3 +75,5 @@ let container = document.querySelector(".container");
 // btn.addEventListener("keyup", () => {
 //   console.log("keyup");
 // });
+
+//3.form event
