@@ -26,6 +26,6 @@
 
 // imidiately invoke function expression
 
-(() => {
-  console.log("hi");
-})();
+// (() => {
+//   console.log("hi");
+// })();
