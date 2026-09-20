@@ -9,3 +9,8 @@
 // setTimeout(() => {
 //   alert("please Login");
 // }, 5000);
+
+// const username = (str) => {
+//   console.log(str.toLowerCase() + "_" + str.length);
+// };
+// username("Ayush");
