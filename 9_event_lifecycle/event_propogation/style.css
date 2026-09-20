@@ -1,0 +1,17 @@
+.grand_parent {
+  padding: 80px;
+  color: white;
+  background-color: black;
+}
+.parent {
+  padding: 70px;
+  margin: 30px;
+  color: white;
+  background-color: brown;
+}
+.child {
+  padding: 50px;
+  margin: 30px;
+  color: white;
+  background-color: skyblue;
+}
