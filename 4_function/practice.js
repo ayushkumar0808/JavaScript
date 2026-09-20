@@ -1,3 +1,7 @@
-setTimeout(() => {
-  alert("Login");
-}, 5000);
+// const firstLetterCapitalized = (str) => {
+//   console.log(
+//     str.charAt(0).toUpperCase() + str.slice(1, str.length).toLowerCase(),
+//   );
+// };
+// firstLetterCapitalized("sUbhasH");
+// firstLetterCapitalized("ayUsH");
