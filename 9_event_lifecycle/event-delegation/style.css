@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  padding: 80px;
+  background-color: aquamarine;
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  cursor: pointer;
+}
