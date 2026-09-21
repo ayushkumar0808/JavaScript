@@ -16,6 +16,7 @@
   width: 100%;
   position: absolute;
   top: 0px;
+  cursor: pointer;
 }
 .itemContainer {
   display: flex;
@@ -26,6 +27,7 @@
   width: 200px;
   justify-content: space-evenly;
   border-radius: 10px;
+  cursor: default;
 }
 .close {
   font-size: large;

@@ -9,3 +9,9 @@ btn.addEventListener("click", () => {
 // close.addEventListener("click", () => {
 //   container.style.display = "none";
 // });
+
+container.addEventListener("click", (e) => {
+  if (e.target.className === "container") {
+    container.style.display = "none";
+  }
+});
