@@ -24,3 +24,13 @@
 // console.log(Number.parseFloat(n));
 // console.log(isNaN(n));
 // console.log(isFinite(n));
+
+//number instance method :
+
+// let n = 34535.456563;
+// console.log(n.toFixed(3), typeof n.toFixed(3));
+// console.log(n.toPrecision(5));
+// console.log(n.toString());
+
+// let num3 = new Number(2342234);
+// console.log(num3.valueOf());
