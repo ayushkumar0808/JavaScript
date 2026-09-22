@@ -1,0 +1,14 @@
+// let num = 123;
+// console.log(num);
+// let num1 = Number("123133");
+// console.log(num1);
+// let num2 = Number(25252);
+// console.log(num2);
+
+// let num3 = new Number(2342234);
+// console.log(num3);
+
+//number properties:
+
+console.log(Number.MAX_VALUE);
+console.log(Number.MIN_VALUE);
