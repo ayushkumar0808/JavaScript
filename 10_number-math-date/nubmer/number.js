@@ -16,3 +16,11 @@
 // console.log(Number.NEGATIVE_INFINITY);
 // console.log(Number.NaN);
 // console.log(Number.EPSILON);
+
+//number Methods:
+
+// let n = "2425.8px";
+// console.log(parseInt(n), typeof parseInt(n));
+// console.log(Number.parseFloat(n));
+// console.log(isNaN(n));
+// console.log(isFinite(n));
