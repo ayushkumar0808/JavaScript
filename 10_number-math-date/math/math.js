@@ -10,4 +10,9 @@
 
 //write a function that gives random no between 2 no
 
-console.log(Math.floor(Math.random() * 20 + 1) + 5);
+// console.log(Math.floor(Math.random() * (1 + 1)) + 1);
+function generateRandomValues(min, max) {
+  let rVal = Math.floor(Math.random() * (max - min + 1) + min);
+  console.log(rVal);
+}
+generateRandomValues(1, 10);
