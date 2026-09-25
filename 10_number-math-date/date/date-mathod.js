@@ -2,7 +2,7 @@
 // //start from 1 jan 1970 in cs
 // console.log(date);
 
-let date = new Date();
+// let date = new Date();
 
 // console.log(date.toLocaleString());
 
@@ -17,7 +17,15 @@ let date = new Date();
 
 // console.log(date.getTimezoneOffset() / 60);
 
-date.setFullYear("2029");
-date.setMonth("01");
-date.setDate("10");
-console.log(date);
+// date.setFullYear("2029");
+// date.setMonth("01");
+// date.setDate("10");
+// console.log(date);
+
+//working with thhe timestamp
+
+let timeStamp = new Date().getTime();
+console.log(timeStamp);
+
+let time = Date.now();
+console.log(time);
