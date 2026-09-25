@@ -2,7 +2,8 @@
 
 let arr = [3, 5, 7, 8];
 
-function newArr(arr) {
+functiongetLastElem(arr) {
   console.log(arr[arr.length - 1]);
+
 }
-newArr(arr);
+getLastElem(arr);
