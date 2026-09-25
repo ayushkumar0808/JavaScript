@@ -24,8 +24,8 @@
 
 //working with thhe timestamp
 
-let timeStamp = new Date().getTime();
-console.log(timeStamp);
+// let timeStamp = new Date().getTime();
+// console.log(timeStamp);
 
-let time = Date.now();
-console.log(time);
+// let time = Date.now();
+// console.log(time);
