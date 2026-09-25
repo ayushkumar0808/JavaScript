@@ -1,5 +1,5 @@
 // let date = Date.now();//unix time
-// //start from 1 jan 1970 in cs
+// //start from 1 jan 1970 in cs//unix epoch
 // console.log(date);
 
 // let date = new Date();
