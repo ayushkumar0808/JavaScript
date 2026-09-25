@@ -6,13 +6,18 @@ let date = new Date();
 
 // console.log(date.toLocaleString());
 
-console.log(date.getFullYear());
-console.log(date.getMonth()); //zero index
-console.log(date.getDate());
-// console.log(date.getDay());
-console.log(date.getHours());
-console.log(date.getMinutes());
-console.log(date.getSeconds());
-console.log(date.getMilliseconds());
+// console.log(date.getFullYear());
+// console.log(date.getMonth()); //zero index
+// console.log(date.getDate());
+// // console.log(date.getDay());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+// console.log(date.getMilliseconds());
 
-console.log(date.getTimezoneOffset() / 60);
+// console.log(date.getTimezoneOffset() / 60);
+
+date.setFullYear("2029");
+date.setMonth("01");
+date.setDate("10");
+console.log(date);
