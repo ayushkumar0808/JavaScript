@@ -1,9 +1,17 @@
 //1. create a funtion that returns the last element of array
 
-let arr = [3, 5, 7, 8];
+// let arr = [3, 5, 7, 8];
 
-functiongetLastElem(arr) {
-  console.log(arr[arr.length - 1]);
+// functiongetLastElem(arr) {
+//   console.log(arr[arr.length - 1]);
 
-}
-getLastElem(arr);
+// }
+// getLastElem(arr);
+
+//2. find the combination of two array
+
+// let arr1 = [44, 6, 4, 7, 8, 4];
+// let arr2 = [5, 6, 36, 7, 57, 5];
+
+// let combineArr = [...arr1, ...arr2];
+// console.log(combineArr);
