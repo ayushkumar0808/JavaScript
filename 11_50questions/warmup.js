@@ -62,7 +62,7 @@
 //   { name: "Ayush", age: 22, gender: "Male" },
 //   { name: "Priya", age: 21, gender: "Female" },
 //   { name: "Rahul", age: 24, gender: "Male" },
-//   { name: "Sneha", age: 23, gender: "Female" },
+//   { name: "Sneha", age: 23, gender: "Female" }
 //   { name: "Arjun", age: 20, gender: "Male" },
 //   { name: "Ananya", age: 22, gender: "Female" },
 //   { name: "Rohit", age: 25, gender: "Male" },
@@ -80,3 +80,14 @@
 
 // let newArr = arr.map((elm) => elm.toUpperCase());
 // console.log(newArr);
+
+//9.**** check if an objext is empty or not
+
+// let obj = {};
+// let isEmpty = Object.keys(obj).length === 0;
+
+// if (isEmpty) {
+//   console.log("object is empty");
+// } else {
+//   console.log("object is not empty");
+// }
