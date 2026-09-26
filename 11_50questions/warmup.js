@@ -15,3 +15,9 @@
 
 // let combineArr = [...arr1, ...arr2];
 // console.log(combineArr);
+
+//3. generate a ramdonn integer between 0 to 18
+
+// console.log(Math.floor(Math.random() * 19));s
+
+//4. create a function that takes an array containig both numbers and strings and return a new array containing only string values
