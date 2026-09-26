@@ -105,3 +105,10 @@
 
 // let newStr = arr.join(",");
 // console.log(newStr, typeof newStr);
+
+// 12.**** write a function to flatten a nested array
+
+// let arr = [[4, [5, 6], 6], 4, 6, 4, [5, 5, 6]];
+
+// let arrNew = arr.flat(2);
+// console.log(arrNew);
