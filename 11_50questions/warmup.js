@@ -73,3 +73,10 @@
 
 // let maleusers = users.filter((obj) => obj.gender.toLowerCase() === "male");
 // console.log(maleusers);
+
+//8.**** given an array of strings return a new array where all strings are in uppercase
+
+// let arr = ["Ayush", "Rahul", "Sunny", "Priya"];
+
+// let newArr = arr.map((elm) => elm.toUpperCase());
+// console.log(newArr);
