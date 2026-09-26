@@ -113,6 +113,21 @@
 // let arrNew = arr.flat(2);
 // console.log(arrNew);
 
+//13.****
+
+// 14.**** checka no is prime or not
+
+// function isPrime(n) {
+//   if (n == 0 || n == 1) return false;
+
+//   for (let i = 2; i <= Math.sqrt(n); i++) {
+//     if (n % i == 0) return false;
+//   }
+//   return true;
+// }
+
+// console.log(isPrime(1));
+
 //15.**** create a function that remove all duplicate value from an array
 
 // let arr = [3, 5, 7, 9, 8, 7, 6, 5, 3];
