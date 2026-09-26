@@ -21,3 +21,15 @@
 // console.log(Math.floor(Math.random() * 19));s
 
 //4. create a function that takes an array containig both numbers and strings and return a new array containing only string values
+
+// let arr = [24, 5, 33, 5, "e", "t", 6, "b"];
+
+// function returnStringArr(arr) {
+//   let newArr = arr.filter((elem) => {
+//     return typeof elem === "string";
+//   });
+
+//   return newArr;
+// }
+
+// console.log(returnStringArr(arr));
