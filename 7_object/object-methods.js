@@ -9,8 +9,8 @@ let obj = {
 // let values = Object.values(obj);
 // console.log(values);
 
-// let entities = Object.entries(obj);
-// console.log(entities.flat());
+let entities = Object.entries(obj);
+console.log(entities.flat());
 
 // for (let ch in obj) {
 //   console.log(ch);
@@ -38,4 +38,4 @@ let obj = {
 // delete obj.age; //❌
 // console.log(obj);
 
-console.log(obj.hasOwnProperty("name"));
+// console.log(obj.hasOwnProperty("name"));
