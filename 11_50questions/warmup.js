@@ -25,11 +25,16 @@
 // let arr = [24, 5, 33, 5, "e", "t", 6, "b"];
 
 // function returnStringArr(arr) {
-//   let newArr = arr.filter((elem) => {
-//     return typeof elem === "string";
-//   });
+//   let newArr = arr.filter((elem) => typeof elem === "string");
 
 //   return newArr;
 // }
 
 // console.log(returnStringArr(arr));
+
+// 5. find the max no of an array
+
+// let arr = [3, 5, 2, 7, 4, 9, 8];
+
+// arr.sort((a, b) => b - a);
+// console.log(arr[0]);
