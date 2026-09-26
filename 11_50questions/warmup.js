@@ -91,3 +91,10 @@
 // } else {
 //   console.log("object is not empty");
 // }
+
+//10.**** create an array of no and double the ecah value using map()
+
+// let arr = [4, 5, 6, 3, 6];
+
+// let finalArr = arr.map((elem) => elem * 2);
+// console.log(finalArr);
