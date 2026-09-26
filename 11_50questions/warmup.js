@@ -112,3 +112,12 @@
 
 // let arrNew = arr.flat(2);
 // console.log(arrNew);
+
+//15.**** create a function that remove all duplicate value from an array
+
+// let arr = [3, 5, 7, 9, 8, 7, 6, 5, 3];
+
+// arr.sort((a, b) => a - b);
+// console.log(arr);
+// let filterArr = arr.filter((elem, ind) => elem !== arr[ind + 1]);
+// console.log(filterArr);
