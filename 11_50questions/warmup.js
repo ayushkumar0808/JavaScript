@@ -55,3 +55,21 @@
 // }
 
 // console.log(returnKeyLength(obj));
+
+//7.**** in an array of objects filter out those objects which have gender value is  male
+
+// const users = [
+//   { name: "Ayush", age: 22, gender: "Male" },
+//   { name: "Priya", age: 21, gender: "Female" },
+//   { name: "Rahul", age: 24, gender: "Male" },
+//   { name: "Sneha", age: 23, gender: "Female" },
+//   { name: "Arjun", age: 20, gender: "Male" },
+//   { name: "Ananya", age: 22, gender: "Female" },
+//   { name: "Rohit", age: 25, gender: "Male" },
+//   { name: "Neha", age: 21, gender: "Female" },
+//   { name: "Vikram", age: 23, gender: "Male" },
+//   { name: "Kavya", age: 24, gender: "Female" },
+// ];
+
+// let maleusers = users.filter((obj) => obj.gender.toLowerCase() === "male");
+// console.log(maleusers);
