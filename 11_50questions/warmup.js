@@ -98,3 +98,10 @@
 
 // let finalArr = arr.map((elem) => elem * 2);
 // console.log(finalArr);
+
+// 11.**** convert an array of strings into single comma-seprated string
+
+// let arr = [3, 5, 6, 6, 44, 5];
+
+// let newStr = arr.join(",");
+// console.log(newStr, typeof newStr);
