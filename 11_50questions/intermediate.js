@@ -32,3 +32,12 @@
 
 // let str = "mai hu ayush";
 // console.log(str.split("").reverse().join("").split(" ").reverse().join(" "));
+
+// 22.**** in array of numbers and strings only add those numbers which are not string
+
+let arr = [2, 3, , "7", 7, "5"];
+let sum = 0;
+arr.forEach((elem) => {
+  if (typeof elem === "number") sum += elem;
+});
+console.log(sum);
