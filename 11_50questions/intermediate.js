@@ -98,3 +98,17 @@
 //   return arrNew.join(" ");
 // }
 // console.log(captalized(str));
+
+// 27.**** wirte a function  to get the first element of an array. passing parameter n will return the first n elememt of the array
+
+// let arr = [2, 3, 4, 5, 6, 8];
+// function getFirstElement(arr, n) {
+//   if (!n) return arr[0];
+//   else if (n > arr.length) {
+//     console.log("n is greter then arr length");
+//   } else {
+//     return arr.slice(0, n);
+//   }
+// }
+
+// console.log(getFirstElement(arr, 2));
