@@ -20,5 +20,15 @@
 // let fixedSum = sum.toFixed(2);
 // console.log(Number(fixedSum) === 0.3);
 
+// let decimal = require("decimal.js");
+// let num1 = decimal(0.1);
+// let num2 = decimal(0.2);
+// let sum = num1.plus(num2);
+// console.log(Number(sum) === 0.3);
+
+// 20.*** what is the diffrence between slice and splice
+
+// 21.**** reverse each word of string
+
 // let str = "mai hu ayush";
 // console.log(str.split("").reverse().join("").split(" ").reverse().join(" "));
