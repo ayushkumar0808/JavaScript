@@ -83,3 +83,5 @@
 //   return revese;
 // }
 // console.log(reverseNubmer(123));
+
+//  25.*** write function that returns a passed string with latters in alpha oreder
