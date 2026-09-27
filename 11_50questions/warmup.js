@@ -143,7 +143,7 @@
 
 //15.**** create a function that remove all duplicate value from an array
 
-let arr = [3, 5, 7, 9, 8, 7, 6, 5, 3];
+// let arr = [3, 5, 7, 9, 8, 7, 6, 5, 3];
 
 // arr.sort((a, b) => a - b);
 // console.log(arr);
@@ -154,3 +154,8 @@ let arr = [3, 5, 7, 9, 8, 7, 6, 5, 3];
 // console.log(set);
 // let newArr = [...set];
 // console.log(newArr);
+
+// let filterArr = arr.filter((elem, ind) => {
+//   return ind === arr.indexOf(elem);
+// });
+// console.log(filterArr);
