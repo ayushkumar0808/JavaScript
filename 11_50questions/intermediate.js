@@ -65,3 +65,8 @@
 // console.log(sum);
 
 // 23.*** How would check a nummber is a interger
+
+let num = 234.345;
+
+console.log(Number.isInteger(num));
+console.log(num % 1 === 0);
