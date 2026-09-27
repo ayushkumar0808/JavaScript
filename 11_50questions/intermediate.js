@@ -85,3 +85,16 @@
 // console.log(reverseNubmer(123));
 
 //  25.*** write function that returns a passed string with latters in alpha oreder
+
+// 26.**** write a fucntion that accepts a string as a parameter and coverts the first letter of ecah word in uppercase
+
+let str = "ayush kumar singh";
+
+function captalized(str) {
+  let arrNew = str.split(" ").map((elem) => {
+    return elem.charAt(0).toUpperCase() + elem.slice(1);
+  });
+
+  return arrNew.join(" ");
+}
+console.log(captalized(str));
