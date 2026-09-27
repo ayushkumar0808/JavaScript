@@ -66,7 +66,20 @@
 
 // 23.*** How would check a nummber is a interger
 
-let num = 234.345;
+// let num = 234.345;
 
-console.log(Number.isInteger(num));
-console.log(num % 1 === 0);
+// console.log(Number.isInteger(num));
+// console.log(num % 1 === 0);
+
+// 24.*** write a javascript function that reverse a number
+
+// function reverseNubmer(num) {
+//   let revese = 0;
+//   while (num > 0) {
+//     let temp = parseInt(num % 10);
+//     revese = revese * 10 + temp;
+//     num = parseInt(num / 10);
+//   }
+//   return revese;
+// }
+// console.log(reverseNubmer(123));
