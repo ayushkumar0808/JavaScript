@@ -113,7 +113,20 @@
 // let arrNew = arr.flat(2);
 // console.log(arrNew);
 
-//13.****
+//13.**** checks if all elements in an array are no
+
+// let arr = [2, 4, 5, 7, 3, 34, 8];
+
+// let isNumber = true;
+// arr.forEach((elem) => {
+//   if (typeof elem !== "number") {
+//     isNumber = false;
+//   }
+// });
+// console.log(isNumber);
+
+// let isNumber = arr.every((elem) => typeof elem === "number");
+// console.log(isNumber);
 
 // 14.**** checka no is prime or not
 
