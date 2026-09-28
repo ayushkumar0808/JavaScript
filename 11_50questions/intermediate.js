@@ -152,3 +152,16 @@
 //     console.log(`${key}, ${obj[key]}times`);
 //   }
 // }
+
+// 30.**** write a programe to suffle the array
+
+// let arr = [3, 4, 5, 6, 7];
+// let temp;
+// arr.forEach((elem, i) => {
+//   let randomIndex = Math.floor(Math.random() * arr.length);
+//   temp = elem;
+//   arr[i] = arr[randomIndex];
+//   arr[randomIndex] = temp;
+// });
+
+// console.log(arr);
