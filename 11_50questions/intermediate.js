@@ -131,3 +131,24 @@
 // }
 // console.log(getOccurenceOfEachLetter(str));
 // console.log(getOccurenceOfEachLetter(str1));
+
+// 29. write a prigrame to fiond most frequent item in an array
+
+// let arr = [3, 4, 5, 5, 5, 6, 6, 6, 3, 7];
+
+// let obj = {};
+
+// arr.forEach((key) => {
+//   if (obj.hasOwnProperty(key)) {
+//     obj[key]++;
+//   } else {
+//     obj[key] = 1;
+//   }
+// });
+// let maxFerq = Math.max(...Object.values(obj));
+// console.log("Most occurance elements:");
+// for (let key in obj) {
+//   if (obj[key] == maxFerq) {
+//     console.log(`${key}, ${obj[key]}times`);
+//   }
+// }
