@@ -112,3 +112,22 @@
 // }
 
 // console.log(getFirstElement(arr, 2));
+
+//28.**** wirte a function to get number of accurance of each latter in specified string
+
+// let str = "ayusahsass";
+// let str1 = "efhghoi eirjtite";
+
+// function getOccurenceOfEachLetter(str) {
+//   let obj = {};
+//   for (let key of str) {
+//     if (obj.hasOwnProperty(key)) {
+//       obj[key]++;
+//     } else {
+//       obj[key] = 1;
+//     }
+//   }
+//   return obj;
+// }
+// console.log(getOccurenceOfEachLetter(str));
+// console.log(getOccurenceOfEachLetter(str1));

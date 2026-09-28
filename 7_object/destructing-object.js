@@ -12,5 +12,6 @@ let { name, age, city } = obj;
 console.log(name, age, city);
 
 let arr = [4, "tdchn", { name: "Ayush" }];
-let [, , obj1] = arr;
+let [a, , obj1] = arr;
 console.log(obj1);
+console.log(a);
