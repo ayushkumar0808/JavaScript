@@ -159,9 +159,12 @@
 // let temp;
 // arr.forEach((elem, i) => {
 //   let randomIndex = Math.floor(Math.random() * arr.length);
-//   temp = elem;
-//   arr[i] = arr[randomIndex];
-//   arr[randomIndex] = temp;
+//   //   temp = elem;
+//   //   arr[i] = arr[randomIndex];
+//   //   arr[randomIndex] = temp;
+
+//   // or destructre the array
+//   [arr[randomIndex], arr[i]] = [arr[i], arr[randomIndex]];
 // });
 
 // console.log(arr);
