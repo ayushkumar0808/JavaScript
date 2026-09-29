@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .sidebar {
+        background-color: rebeccapurple;
+        height: 100vh;
+        width: 14rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        color: white;
+        transform: translateX(-100%);
+        transition: all 0.5s ease;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 10px;
+      }
+      .sidebarmove {
+        transform: translate(0);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      Navbar
+      <button>tongle</button>
+    </nav>
+    <div class="sidebar">sidebar</div>
+    <script src="script.js"></script>
+  </body>
+</html>
