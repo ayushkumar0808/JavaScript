@@ -14,4 +14,6 @@
 //   console.log("ni hoga ab ");
 // }
 
-// 46.****
+// 46.****calcute the diffrance between two dates in the form of year month day hour mint sec
+
+let date = new Date("2026-04-25T05:30:55.988Z");
