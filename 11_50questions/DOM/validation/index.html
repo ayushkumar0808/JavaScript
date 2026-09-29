@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #grand-patent {
+        padding: 10px;
+        background-color: red;
+      }
+      #parent {
+        padding: 10px;
+        background-color: green;
+      }
+      #child {
+        padding: 10px;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent" id="grand-parent">
+      GRAND PARENT
+      <div class="parent" id="parent">
+        PARENT
+        <div id="child">CHILD</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
