@@ -73,16 +73,16 @@
 
 // 48.**** calculate user's age from their DOB
 
-let { DateTime } = require("luxon");
+// let { DateTime } = require("luxon");
 
-let userDate = "2002-02-24";
+// let userDate = "2002-10-02";
 
-function usersAge(userDOB) {
-  let userDate = DateTime.fromISO(userDOB);
-  let currDate = DateTime.fromISO(new Date().toISOString());
-  diff = currDate.diff(userDate, ["years"]);
-  return `User's Age:${Math.floor(diff.years)}years`;
-}
-let age = usersAge(userDate);
+// function usersAge(userDOB) {
+//   let userDate = DateTime.fromISO(userDOB);
+//   let currDate = DateTime.fromISO(new Date().toISOString());
+//   diff = currDate.diff(userDate, ["years"]);
+//   return `User's Age:${Math.floor(diff.years)}years`;
+// }
+// let age = usersAge(userDate);
 
-console.log(age);
+// console.log(age);
