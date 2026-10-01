@@ -62,4 +62,11 @@
 // let differece = getDiff(strt, end);
 // console.log(differece);
 
-// 47.*****
+// 47.***** add or subtract n days from a give date.
+let n = 5;
+
+let date = new Date("2024-04-23T02:45:45");
+let dateTimestance = date.getTime() + n * 24 * 60 * 60 * 1000;
+
+let newDate = new Date(dateTimestance);
+console.log(newDate.toLocaleString());
