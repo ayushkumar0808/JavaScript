@@ -63,10 +63,26 @@
 // console.log(differece);
 
 // 47.***** add or subtract n days from a give date.
-let n = 5;
+// let n = 5;
 
-let date = new Date("2024-04-23T02:45:45");
-let dateTimestance = date.getTime() + n * 24 * 60 * 60 * 1000;
+// let date = new Date("2024-04-23T02:45:45");
+// let dateTimestance = date.getTime() + n * 24 * 60 * 60 * 1000;
 
-let newDate = new Date(dateTimestance);
-console.log(newDate.toLocaleString());
+// let newDate = new Date(dateTimestance);
+// console.log(newDate.toLocaleString());
+
+// 48.**** calculate user's age from their DOB
+
+let { DateTime } = require("luxon");
+
+let userDate = "2002-02-24";
+
+function usersAge(userDOB) {
+  let userDate = DateTime.fromISO(userDOB);
+  let currDate = DateTime.fromISO(new Date().toISOString());
+  diff = currDate.diff(userDate, ["years"]);
+  return `User's Age:${Math.floor(diff.years)}years`;
+}
+let age = usersAge(userDate);
+
+console.log(age);
