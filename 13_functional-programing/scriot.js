@@ -12,3 +12,27 @@
 // let arr = [1, 2, 3, 4, 5];
 // let doubleArr = arr.map((elem) => elem * 2);
 // console.log(doubleArr);
+
+// #### pure function
+
+// function add(a, b) {
+//   let sum = a + b;
+//   return sum;
+// }
+// let sum = add(5, 2);
+// console.log(sum);
+
+// ### impure function
+
+// function add(a, b) {
+//   console.log(a + b);//side effect
+// }
+// add(5, 3);
+
+// let val = 0;
+
+// function increament() {
+//   val++;
+// }
+// // increament();// shared state
+// console.log(increament());
