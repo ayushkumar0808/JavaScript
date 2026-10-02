@@ -93,3 +93,16 @@
 //   console.log(capitalized);
 // }
 // captalized(str);
+
+// #### reuse or compose logic
+
+// let str = "Confused Ayush Kumar";
+// let lowerCase = (str) => str.toLowerCase();
+// let removeSpace = (str) => str.replaceAll(" ", "");
+// let addAdtherit = (str) => "@" + str;
+
+// function createUserName(str) {
+//   return addAdtherit(removeSpace(lowerCase(str)));
+// }
+// let userName = createUserName(str);
+// console.log(userName);
