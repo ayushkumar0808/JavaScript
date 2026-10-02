@@ -61,3 +61,15 @@
 // }
 // replaceName("Piyush");
 // console.log(obj);
+
+// let arr = ["alo", "gobhi", "muli"];
+
+// function removeLastItem(arr) {
+//   //   let newArr = [...arr];
+//   //   newArr.pop();
+
+//   let newArr = arr.slice(0, -1);
+//   return newArr;
+// }
+// console.log(arr);
+// console.log(removeLastItem(arr));
