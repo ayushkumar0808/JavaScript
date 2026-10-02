@@ -86,3 +86,15 @@
 // let age = usersAge(userDate);
 
 // console.log(age);
+
+// let userDOB = new Date("2002-10-03");
+// let currDate = new Date();
+
+// let diffYear = currDate.getFullYear() - userDOB.getFullYear();
+// let diffMonth = currDate.getMonth() - userDOB.getMonth();
+// let diffDate = currDate.getDate() - userDOB.getDate();
+// if (diffMonth < 0 || (diffMonth == 0 && diffDate < 0)) {
+//   diffYear--;
+// }
+
+// console.log("Age:" + diffYear + "years");
