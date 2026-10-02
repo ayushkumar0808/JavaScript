@@ -36,3 +36,28 @@
 // }
 // // increament();// shared state
 // console.log(increament());
+
+//  ### immutability
+
+// let str = "Ayush";
+// str[0] = "C";
+
+// console.log(str[0]);
+// console.log(str);
+
+// let arr = [2, 3, 5, 6, 4];
+
+// arr[0] = 4;
+// console.log(arr);
+
+// let obj = {
+//   name: "Ayush",
+//   age: 24,
+// };
+
+// function replaceName(name) {
+//   let newObj = { ...obj, name };
+//   console.log(newObj);
+// }
+// replaceName("Piyush");
+// console.log(obj);
