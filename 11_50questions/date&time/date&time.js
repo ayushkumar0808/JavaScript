@@ -98,3 +98,20 @@
 // }
 
 // console.log("Age:" + diffYear + "years");
+
+// 49.**** write formate date function that retuns auser friendly date formate
+
+// let userDate = "2002-10-02";
+
+// function userFrendlyDate(dateStr) {
+//   let date = new Date(dateStr);
+//   console.log(date.toDateString());
+//   console.log(
+//     date.toLocaleDateString("en-IN", {
+//       month: "short",
+//       day: "numeric",
+//       year: "numeric",
+//     }),
+//   );
+// }
+// userFrendlyDate(userDate);
