@@ -73,3 +73,13 @@
 // }
 // console.log(arr);
 // console.log(removeLastItem(arr));
+
+// #### avoid shared state
+
+// let total = 0;
+
+// function addAmount(amount) {
+//   total += amount;
+// }
+// addAmount(100);
+// console.log(total);
