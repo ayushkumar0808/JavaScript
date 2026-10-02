@@ -83,3 +83,13 @@
 // }
 // addAmount(100);
 // console.log(total);
+
+// #### avoid side effect
+
+// let str = "ayush";
+
+// function captalized(str) {
+//   let capitalized = str[0].toUpperCase() + str.slice(1);
+//   console.log(capitalized);
+// }
+// captalized(str);
