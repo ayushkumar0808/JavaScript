@@ -106,3 +106,19 @@
 // }
 // let userName = createUserName(str);
 // console.log(userName);
+
+// #### dont iterate
+
+// let arr = [2, 5, 6, 3, 5, 8, 7];
+// let filterArr = [];
+
+// for (let i = 0, j = 0; i < arr.length; i++) {
+//   if (arr[i] % 2 == 0) {
+//     filterArr[j] = arr[i];
+//     j++;
+//   }
+// }
+// console.log(filterArr);
+
+// let filterArr = arr.filter((elem) => elem % 2 == 0);
+// console.log(filterArr);
