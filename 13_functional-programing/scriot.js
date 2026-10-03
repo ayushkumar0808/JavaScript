@@ -222,3 +222,15 @@
 // }
 // let res = greetWithName("Ayush", greetNamaste);
 // console.log(res);
+
+// function callbackFn() {//callback fn
+//   console.log("helo");
+// }
+
+// function HOF(fn) {//higher order fn
+//   return fn;
+// }
+
+// let res = HOF(callbackFn);
+// console.log(res);
+// res();
