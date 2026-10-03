@@ -144,6 +144,8 @@
 // }
 // getProduct(endpoint);
 
+// or ###
+
 // function getData(endpoint, router) {
 //   fetch(`${endpoint}/${router}`);
 // }
@@ -151,7 +153,7 @@
 
 // getData(endpoint, "product");
 
-// or#####
+// or #####
 
 // function fetchData(fn) {
 //   let endpoint = "www.http/example.com";
@@ -166,3 +168,42 @@
 //   fetch(`${endpoitn}/product`);
 // }
 // fetchData(getProduct);
+
+// or ###
+
+// let user = {
+//   name: "Ayush Kumar",
+//   email: "ayush@gamil.com",
+//   phone: 242524545,
+// };
+
+// function sendEmail(user) {
+//   console.log("send email to:" + user.email);
+// }
+// sendEmail(user);
+
+// function sendSms(user) {
+//   console.log("send sms to:" + user.phone);
+// }
+// sendSms(user);
+
+// function sendMsg(user, msg) {
+//   console.log(`${msg}:${user}`);
+// }
+// sendMsg(user.email, "send to email");
+// sendMsg(user.phone, "send to sms");
+
+// function sendEmail(user) {
+//   console.log("send email to:" + user.email);
+// }
+
+// function sendSms(user) {
+//   console.log("send sms to:" + user.phone);
+// }
+
+// function sendMsg(user, fn) {
+//   console.log("hi");
+//   fn(user);
+// }
+// sendMsg(user, sendEmail);
+// sendMsg(user, sendSms);
