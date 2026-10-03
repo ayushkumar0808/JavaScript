@@ -207,3 +207,18 @@
 // }
 // sendMsg(user, sendEmail);
 // sendMsg(user, sendSms);
+
+//  #### first class fn , callback fn , high order fn
+
+// function greetHello() {
+//   return "Hello";
+// }
+// function greetNamaste() {
+//   return "Namaste";
+// }
+
+// function greetWithName(name, fn) {
+//   return fn() + " " + name;
+// }
+// let res = greetWithName("Ayush", greetNamaste);
+// console.log(res);
