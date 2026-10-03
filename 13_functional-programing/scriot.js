@@ -122,3 +122,47 @@
 
 // let filterArr = arr.filter((elem) => elem % 2 == 0);
 // console.log(filterArr);
+
+// #### tight coupling
+
+// function getUser() {
+//   fetch("www.http/exaple.com/user");
+// }
+// getUser();
+
+// #### loose couping
+
+// let endpoint = "www.http/example.com";
+
+// function getUser(endpoint) {
+//   fetch(`${endpoint}/user`);
+// }
+// getUser(endpoint);
+
+// function getProduct(endoint) {
+//   fetch(`${endoint}/product`);
+// }
+// getProduct(endpoint);
+
+// function getData(endpoint, router) {
+//   fetch(`${endpoint}/${router}`);
+// }
+// getData(endpoint, "user");
+
+// getData(endpoint, "product");
+
+// or#####
+
+// function fetchData(fn) {
+//   let endpoint = "www.http/example.com";
+//   fn(endpoint);
+// }
+// function getUser(endpoitn) {
+//   fetch(`${endpoitn}/user`);
+// }
+// fetchData(getUser);
+
+// function getProduct(endpoitn) {
+//   fetch(`${endpoitn}/product`);
+// }
+// fetchData(getProduct);
