@@ -51,3 +51,20 @@
 
 // let res = compose(sub10, multiply5, add2)(6);
 // console.log(res);
+
+// 6. pip
+
+let add2 = (num) => num + 2;
+let multiply5 = (num) => num * 5;
+let sub10 = (num) => num - 10;
+
+function pipe(...fns) {
+  return function (val) {
+    return fns.reduce((val, currfn) => {
+      return currfn(val);
+    }, val);
+  };
+}
+
+let res = pipe(sub10, multiply5, add2)(6);
+console.log(res);
