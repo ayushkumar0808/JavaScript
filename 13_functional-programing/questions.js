@@ -87,3 +87,22 @@
 // }
 // let result = compose(captalized, snatize, trim)(str);
 // console.log(result);
+
+// 8. how to create your own map
+
+// let arr2 = [3, 4, 3, 5, 3];
+
+// let ayushMap = function (fn) {
+//   let arr1 = [];
+//   for (let i = 0; i < this.length; i++) {
+//     arr1.push(fn(this[i], i));
+//   }
+//   return arr1;
+// };
+
+// Array.prototype.ownMap = ayushMap;
+
+// let a = arr2.ownMap((e, i) => {
+//   return e * 2;
+// });
+// console.log(a);
