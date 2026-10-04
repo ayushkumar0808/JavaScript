@@ -88,7 +88,7 @@
 // let result = compose(captalized, snatize, trim)(str);
 // console.log(result);
 
-// 8. how to create your own map
+// 8. how to create your own map()
 
 // let arr2 = [3, 4, 3, 5, 3];
 
@@ -106,3 +106,28 @@
 //   return e * 2;
 // });
 // console.log(a);
+
+//  9. how to create your oun fillter()
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let ayushFilter = function (callback) {
+//   let arr1 = [];
+//   for (let i = 0; i < this.length; i++) {
+//     if (callback(this[i], i)) {
+//       arr1.push(this[i]);
+//     }
+//   }
+//   return arr1;
+// };
+
+// // let res = ayushFilter(arr, (e, i) => {
+// //   return e % 2 === 0;
+// // });
+
+// Array.prototype.ownFilter = ayushFilter;
+
+// let res = arr.ownFilter((e) => {
+//   return e % 2 === 0;
+// });
+// console.log(res);
