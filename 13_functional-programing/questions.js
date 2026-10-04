@@ -54,17 +54,36 @@
 
 // 6. pip
 
-let add2 = (num) => num + 2;
-let multiply5 = (num) => num * 5;
-let sub10 = (num) => num - 10;
+// let add2 = (num) => num + 2;
+// let multiply5 = (num) => num * 5;
+// let sub10 = (num) => num - 10;
 
-function pipe(...fns) {
-  return function (val) {
-    return fns.reduce((val, currfn) => {
-      return currfn(val);
-    }, val);
-  };
-}
+// function pipe(...fns) {
+//   return function (val) {
+//     return fns.reduce((val, currfn) => {
+//       return currfn(val);
+//     }, val);
+//   };
+// }
 
-let res = pipe(sub10, multiply5, add2)(6);
-console.log(res);
+// let res = pipe(sub10, multiply5, add2)(6);
+// console.log(res);
+
+// 7. #### how would you multiple funnction to tranform data step by step
+
+// let str = "   ay u sh k u ma R";
+// let trim = (str) => str.trim();
+// let snatize = (str) => str.replaceAll(" ", "");
+// let captalized = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
+
+// // let result = captalized(snatize(trim(str)));
+
+// function compose(...fns) {
+//   return function (str) {
+//     return fns.reduceRight((str, cuurfn) => {
+//       return cuurfn(str);
+//     }, str);
+//   };
+// }
+// let result = compose(captalized, snatize, trim)(str);
+// console.log(result);
