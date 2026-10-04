@@ -6,3 +6,14 @@
 //   return acc + curr;
 // }, 0);
 // console.log(price);
+
+// 2. #### explain immutability and how you would update an object in an array without mutating the original
+
+// let user = { name: "ayush ", age: 24 };
+
+// function replaceName(user, name) {
+//   let newUser = { ...user, name };
+//   return newUser;
+// }
+
+// console.log(replaceName(user, "piyush"));
