@@ -25,3 +25,12 @@
 // let reverse = str.split("").reverse().join("");
 
 // console.log(reverse);
+
+// 4.. compose
+
+// let add2 = (num) => num + 2;
+// let multiply5 = (num) => num * 5;
+// let sub10 = (num) => num - 10;
+
+// let res = sub10(multiply5(add2(6)));
+// console.log(res);
