@@ -17,3 +17,11 @@
 // }
 
 // console.log(replaceName(user, "piyush"));
+
+// 3. chaining
+
+// let str = "ayush";
+
+// let reverse = str.split("").reverse().join("");
+
+// console.log(reverse);
