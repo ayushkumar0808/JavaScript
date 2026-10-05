@@ -42,3 +42,38 @@
 // s1.intro();
 // s2.intro();
 // s3.intro();
+
+// funtion constrocter
+
+// function student(name, age) {
+//   //   console.log(this);
+//   this.name = name;
+//   this.age = age;
+//   this.intro = function () {
+//     console.log(`Name:${this.name} Age:${age}`);
+//   };
+//   return this;
+// }
+// let s1 = new student("Ayush", 24);
+// let s2 = new student("piyush", 23);
+// console.log(s1);
+// console.log(s2);
+// s1.intro();
+// s2.intro();
+
+// function student(name, age) {
+//   //   console.log(this);
+//   this.name = name;
+//   this.age = age;
+// }
+
+// student.prototype.intro = function () {
+//   console.log(`Name:${this.name} Age:${this.age}`);
+// };
+
+// let s1 = new student("Ayush", 24);
+// let s2 = new student("piyush", 23);
+// console.log(s1);
+// console.log(s2);
+// s1.intro();
+// s2.intro();
