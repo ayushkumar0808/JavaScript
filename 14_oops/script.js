@@ -62,7 +62,6 @@
 // s2.intro();
 
 // function student(name, age) {
-//   //   console.log(this);
 //   this.name = name;
 //   this.age = age;
 // }
