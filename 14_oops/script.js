@@ -25,3 +25,20 @@
 // obj2.introduce();
 
 // factory function
+
+// function student(name, age) {
+//   return {
+//     myName: name,
+//     age,
+//     intro: function () {
+//       console.log(`Name:${this.myName} age:${this.age}`);
+//     },
+//   };
+// }
+// let s1 = student("Piyush", 23);
+// let s2 = student("Ayush", 24);
+// let s3 = student("Atul", 26);
+
+// s1.intro();
+// s2.intro();
+// s3.intro();
