@@ -25,3 +25,16 @@
 // console.log(s2);
 // s1.introduce();
 // console.log(Student.prototype);
+
+// class Student {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+//   intro() {
+//     console.log(`Name:${this.name}`);
+//   }
+// }
+
+// let s1 = new Student("Ayush", 23);
+// console.log(s1);
