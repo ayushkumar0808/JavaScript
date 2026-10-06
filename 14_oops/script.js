@@ -83,3 +83,18 @@
 // this.age = 24;
 // console.log(this);
 // console.log(this.name);
+
+// Class (es6)
+
+// class Student {
+//   constructor(name, age) {
+//     this.myname = name;
+//     this.age = age;
+//   }
+//   intro() {
+//     console.log(`my name is ${this.myname}`);
+//   }
+// }
+// let s1 = new Student("Ayush", 24);
+// console.log(s1);
+// s1.intro();
