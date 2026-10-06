@@ -76,3 +76,10 @@
 // console.log(s2);
 // s1.intro();
 // s2.intro();
+
+// console.log(this);
+
+// this.name = "Ayush";
+// this.age = 24;
+// console.log(this);
+// console.log(this.name);
