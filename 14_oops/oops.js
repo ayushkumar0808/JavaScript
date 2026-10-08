@@ -18,3 +18,22 @@
 // console.log(bmw, toyota, audi);
 
 // let locgic = (n) => n % 2 == 0;
+
+// Abstraction and encapsulation
+
+// class Car {
+//   #fuel = 100;
+
+//   #getFuel() {
+//     this.#fuel -= 1;
+//     console.log(this.#fuel);
+//   }
+//   start() {
+//     this.#getFuel();
+//     console.log("engine start");
+//   }
+// }
+
+// let c1 = new Car();
+// c1.start();
+// c1.start();
