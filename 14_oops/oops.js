@@ -37,3 +37,32 @@
 // let c1 = new Car();
 // c1.start();
 // c1.start();
+
+// class BankAcc {
+//   #bal = 100;
+//   #name;
+//   constructor(acName, bal) {
+//     this.#name = acName;
+//     this.#bal = bal;
+//   }
+
+//   depo(bal) {
+//     this.#bal += bal;
+//   }
+
+//   get details() {
+//     console.log(`name:${this.#name} bal:${this.#bal}`);
+//   }
+//   set bal(bal) {
+//     if (isNaN(bal)) {
+//       return;
+//     }
+
+//     this.#bal = bal;
+//   }
+// }
+
+// let ayush = new BankAcc("Ayush", 500);
+// console.log(ayush);
+// ayush.bal = "ayush";
+// console.log(ayush.details);
