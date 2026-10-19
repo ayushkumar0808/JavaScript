@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px 16px;
+
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+  color: #fff;
+}
+
+/* Search Container */
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding: 35px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+/* Input */
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 15px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.95);
+  color: #0f172a;
+  font-size: 15px;
+  font-family: inherit;
+
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #64748b;
+}
+
+.input:focus {
+  border-color: #93c5fd;
+  box-shadow: 0 0 0 4px rgba(147, 197, 253, 0.25);
+}
+
+/* Apply Button */
+.applyBtn {
+  width: 100%;
+  padding: 13px 20px;
+
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+
+  box-shadow: 0 6px 18px rgba(56, 189, 248, 0.25);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.applyBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.4);
+}
+
+.applyBtn:active {
+  transform: scale(0.98);
+}
+
+/* Weather Information */
+.info {
+  width: 100%;
+  max-width: 500px;
+  padding: 25px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  backdrop-filter: blur(15px);
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.info p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px 5px;
+  font-size: 15px;
+  font-weight: 500;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.info p:last-child {
+  border-bottom: none;
+}
+
+.info span {
+  color: #bae6fd;
+  font-weight: 600;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
