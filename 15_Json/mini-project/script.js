@@ -1,6 +1,10 @@
 let btn = document.querySelector(".applyBtn");
 let input = document.querySelector(".input");
 let locatin = document.querySelector(".location");
+let country = document.querySelector(".country");
+let localtime = document.querySelector(".localtime");
+let region = document.querySelector(".region");
+let temp = document.querySelector(".temp");
 btn.addEventListener("click", () => {
   console.log(input.value);
   let val = input.value;
@@ -10,7 +14,12 @@ btn.addEventListener("click", () => {
     );
     let fetchData = await response.json();
     console.log(fetchData);
-    locatin.innerHTML = val;
+    let { location, current } = fetchData;
+    locatin.innerHTML = location.name;
+    country.innerHTML = location.country;
+    localtime.innerHTML = location.localtime;
+    region.innerHTML = location.region;
+    temp.innerHTML = `${current.temp_c}<sup>o</sup>C`;
   }
   fetchWeather();
 });
