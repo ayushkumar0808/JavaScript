@@ -27,7 +27,7 @@ async function fetchData() {
       });
 
       let text = div.querySelector(".text");
-      let editInput = div.querySelector(".editInput");
+      let editInput = div.querySelector("#editInput");
       let editBtn = div.querySelector(".editBtn");
       let saveBtn = div.querySelector(".saveBtn");
 
@@ -37,9 +37,17 @@ async function fetchData() {
         text.style.display = "none";
         editInput.style.display = "inline";
       });
-      saveBtn.addEventListener("click", () => {
-        editBtn.style.display = "inline";
-        saveBtn.style.display = "none";
+
+      saveBtn.addEventListener("click", async () => {
+        let val = editInput.value;
+        let response = await updateData(obj.id, val);
+        if (response.status === 200) {
+          await fetchData();
+          editBtn.style.display = "inline";
+          saveBtn.style.display = "none";
+          text.style.display = "inline";
+          editInput.style.display = "none";
+        }
       });
 
       todoContainerDiv.append(div);
@@ -72,4 +80,16 @@ async function deleteData(id) {
   if (response.status === 200) {
     fetchData();
   }
+}
+
+async function updateData(id, val) {
+  let obj = { text: val };
+  let response = await fetch(`${API}/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(obj),
+  });
+  return response;
 }
