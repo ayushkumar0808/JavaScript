@@ -13,15 +13,35 @@ async function fetchData() {
       let div = document.createElement("div");
       div.className = "todo";
       div.innerHTML = `
-          <p>${obj.text}</p>
+          <p class="text">${obj.text}</p>
+          <input id="editInput" type="text" value="${obj.text}" />
           <div>
               <button class="dltBtn">Delete</button>
-              <button>Edit</button>
-          </div>`;
+              <button class="editBtn">Edit</button>
+              <button class="saveBtn">Save</button>
+              </div>`;
+
       let dltBtn = div.querySelector(".dltBtn");
       dltBtn.addEventListener("click", () => {
         deleteData(obj.id);
       });
+
+      let text = div.querySelector(".text");
+      let editInput = div.querySelector(".editInput");
+      let editBtn = div.querySelector(".editBtn");
+      let saveBtn = div.querySelector(".saveBtn");
+
+      editBtn.addEventListener("click", () => {
+        editBtn.style.display = "none";
+        saveBtn.style.display = "inline";
+        text.style.display = "none";
+        editInput.style.display = "inline";
+      });
+      saveBtn.addEventListener("click", () => {
+        editBtn.style.display = "inline";
+        saveBtn.style.display = "none";
+      });
+
       todoContainerDiv.append(div);
     });
   }
