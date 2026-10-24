@@ -128,3 +128,22 @@
 // // let { city, pincode } = newadd;
 // // console.log(newadd);
 // console.log(city, pincode, x, y, z);
+
+// array destructuring in function parameter
+
+// function add([a, b]) {
+//   console.log(a + b);
+// }
+
+// add([4, 5]);
+
+// object destructuring in function parameter
+
+// function greet({ name, age }) {
+//   console.log(`hi ${name} u r age is ${age}`);
+// }
+// let obj = {
+//   name: "Ayush ",
+//   age: 23,
+// };
+// greet(obj);
