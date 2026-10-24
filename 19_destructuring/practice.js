@@ -22,3 +22,21 @@
 // }
 // let { even, odd } = separate(2, 3, 4, 5, 6, 7, 8, 9, 1);
 // console.log(even, odd);
+
+// function useState(i) {
+//   let value = i;
+
+//   function setVal(val) {
+//     value = val;
+//   }
+//   function getVal() {
+//     return value;
+//   }
+
+//   return [getVal, setVal];
+// }
+// let [count, setCount] = useState(0);
+
+// console.log(count());
+// setCount(5);
+// console.log(count());
