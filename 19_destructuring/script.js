@@ -49,3 +49,17 @@
 
 // let [a, , , d] = [1, 2, 3, 4];
 // console.log(a, d);
+
+// swaping with destructue
+
+// let a = 4;
+// let b = 5;
+
+// [a, b] = [b, a];
+// console.log(a, b);
+
+//nested destructuring
+
+// let [a, b, c, [x, y]] = [1, 2, 3, [3, 4]];
+// // let [x, y] = d;
+// console.log(x, y);
