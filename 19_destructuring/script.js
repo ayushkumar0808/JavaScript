@@ -63,3 +63,26 @@
 // let [a, b, c, [x, y]] = [1, 2, 3, [3, 4]];
 // // let [x, y] = d;
 // console.log(x, y);
+
+//  destructuring with objects
+
+// basic destructure
+
+// let obj = {
+//   name: "Ayush",
+//   age: 21,
+//   isMarried: false,
+// };
+
+// let { name, age, isMarried } = obj;
+
+// console.log(name, age, isMarried);
+
+// desturcture with rest operator
+
+// let obj = { name: "Ayush", age: 24, city: "blr" };
+
+// let { name, ...rest } = obj;
+// console.log(name, rest);
+
+//
