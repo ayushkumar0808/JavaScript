@@ -85,4 +85,14 @@
 // let { name, ...rest } = obj;
 // console.log(name, rest);
 
-//
+//default values
+
+// let obj = {
+//   name: "Ayush",
+//   age: 21,
+//   isMarried: false,
+// };
+
+// let { name, age, isMarried, city = "blr" } = obj;
+
+// console.log(city);
