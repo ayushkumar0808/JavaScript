@@ -96,3 +96,35 @@
 // let { name, age, isMarried, city = "blr" } = obj;
 
 // console.log(city);
+
+// rename
+
+// let person = {
+//   name: "Ayush",
+//   age: 24,
+//   isMarried: false,
+// };
+// let { name: userName, age: userAge } = person;
+// console.log(userAge, userName);
+
+// nested destructure
+
+// let person = {
+//   name: "Ayush",
+//   age: 24,
+//   isMarried: false,
+//   add: { city: "blr", pincode: 34342, arr: [1, 2, 3] },
+// };
+
+// let {
+//   name,
+//   age,
+//   add: {
+//     city,
+//     pincode,
+//     arr: [x, y, z],
+//   },
+// } = person;
+// // let { city, pincode } = newadd;
+// // console.log(newadd);
+// console.log(city, pincode, x, y, z);
