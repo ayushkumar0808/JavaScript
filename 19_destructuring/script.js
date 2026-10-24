@@ -1,9 +1,9 @@
-let person = {
-  name: "Ayush",
-  age: 24,
-  isMarried: false,
-  add: { city: "blr", pincode: 34342 },
-};
+// let person = {
+//   name: "Ayush",
+//   age: 24,
+//   isMarried: false,
+//   add: { city: "blr", pincode: 34342 },
+// };
 
 // let name = person.name;
 // let age = person.age;
@@ -44,3 +44,8 @@ let person = {
 
 // let [a, b, c, d = 0] = [1, 2, 3];
 // console.log(a, b, c, d);
+
+// skip array items
+
+// let [a, , , d] = [1, 2, 3, 4];
+// console.log(a, d);
