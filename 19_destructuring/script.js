@@ -22,4 +22,25 @@ let person = {
 // let [a, b, c] = arr;
 // console.log(a, b, c);
 
+// swaping concept
+// let a = 4;
+// let b = 5;
+
+// [b, a] = [a, b];
+// console.log(a, b);
+
 // basic destructure
+
+// let [a, b, c, d] = [1, 2, 33, 5, 6];
+// console.log(a, b, c, d);
+
+// destucture with rest
+
+// let [a, b, c, ...rest] = [1, 2, 33, 5, 6];
+// console.log(a, b, c);
+// console.log(rest);
+
+// default value
+
+// let [a, b, c, d = 0] = [1, 2, 3];
+// console.log(a, b, c, d);
