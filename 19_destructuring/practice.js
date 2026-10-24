@@ -14,3 +14,11 @@
 // console.log(obj, copyObj);
 
 // Q3------->
+
+// function separate(...rest) {
+//   let even = rest.filter((val) => val % 2 === 0);
+//   let odd = rest.filter((val) => val % 2 !== 0);
+//   return { even, odd };
+// }
+// let { even, odd } = separate(2, 3, 4, 5, 6, 7, 8, 9, 1);
+// console.log(even, odd);
